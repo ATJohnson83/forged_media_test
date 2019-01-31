@@ -119,12 +119,12 @@
 }
 
 .news-ball {
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   border-radius: 50%;
   background-color: white;
   float: right;
-  margin: 0px 10px
+  margin: 0px 7px
 }
 
 .footer {
