@@ -166,7 +166,8 @@ and (max-device-width : 440px) {
   }  
 
   .main-card{
-    margin: 15px;
+    margin: 10px;
+    padding: 5px !important;
   }
 
   .cta-band {
