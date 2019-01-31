@@ -1,0 +1,187 @@
+
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: url('./fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src: url('./fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url('./fonts/RobotoCondensed-Regular.ttf');
+}
+
+.navbar {
+  border-top: 5px solid #003764;
+  border-bottom: 3px solid #42ccde;
+}
+
+.top-nav-link {
+  font-family: RobotoCondensed-Bold;
+  color: #00315a !important;
+  font-size: 20px;
+}
+
+.main-sect {
+  background-image: url("./images/mainBg.png");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-card{
+  margin-top: 100px;
+}
+
+.main-card-text {
+  font-family: RobotoCondensed-Light;
+  color: #00315a;
+  font-size: 18px;
+  line-height: 24px
+}
+
+.learn-more {
+  color:  #003b64;
+  border-color: #003b64;
+  font-family: RobotoCondensed-Bold;
+  font-size: 18px;
+}
+
+.card, .btn {
+  border-radius: 0px;
+}
+
+.cta-band {
+  background-color: rgba(0,0,0,.6);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.cta-button {
+  font-family: RobotoCondensed-Bold;
+  font-size: 18px;
+  background-color: #32c5d2;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.cta-text {
+  font-family: RobotoCondensed-Bold;
+  font-size: 30px;
+  color: #42ccde;
+}
+
+.card-1{
+  background-image: url("./images/aboutBg.png");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card-2{
+  background-image: url("./images/investBg.png");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card-3{
+  background-color: #42ccde;
+  height: 200px;
+}
+
+.card-title {
+  font-family: RobotoCondensed-Bold;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.card-date{
+  font-family: RobotoCondensed-Regular;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.news-card-text{
+  font-family: RobotoCondensed-Bold;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.news-ball {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+  float: right;
+  margin: 0px 10px
+}
+
+.footer {
+  background-color: #003b64;
+  min-height: 100px;
+}
+
+.address {
+  color: #ffffff;
+  font-family: RobotoCondensed-Light;
+  font-size: 17px;
+}
+
+.bottom-nav-links{
+  list-style: none;
+}
+
+.bottom-nav-link{
+  font-family: RobotoCondensed-Bold;
+  color: #ffffff;
+  font-size: 18px;
+  
+}
+
+.bottom-nav-links li {
+  float: left;
+}
+
+.bottom-nav-2 {
+  font-family: RobotoCondensed-Light;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+@media only screen 
+and (max-device-width : 440px) { 
+  .nav-container{
+    margin: 0px 15px;
+  }  
+
+  .main-card{
+    margin: 15px;
+  }
+
+  .cta-band {
+   padding: 15px !important;
+  }
+
+  .bottom-nav-links li {
+  float: none;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.bottom-nav-2{
+  text-align: center;
+}
+
+ }
+
