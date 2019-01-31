@@ -84,6 +84,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  
 }
 
 .card-2{
@@ -174,15 +175,23 @@ and (max-device-width : 440px) {
    padding: 15px !important;
   }
 
+  .card-1, .card-2 {
+    margin: 20px 0px 0px 0px !important;
+  }
+
+  .card-3 {
+    margin: 20px 0px !important;
+  }
+
   .bottom-nav-links li {
-  float: none;
-  padding-bottom: 10px;
-  text-align: center;
-}
+    float: none;
+    padding-bottom: 10px;
+    text-align: center;
+  }
 
-.bottom-nav-2{
-  text-align: center;
-}
+  .bottom-nav-2{
+    text-align: center;
+  }
 
- }
+ }\
 
