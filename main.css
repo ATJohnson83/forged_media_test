@@ -160,6 +160,14 @@
   font-size: 14px;
 }
 
+.bottom-nav-2:hover, .bottom-nav-link:hover {
+  color: white;
+}
+
+.top-nav-link:hover{
+  text-decoration: underline;
+}
+
 @media only screen 
 and (max-device-width : 440px) { 
   .nav-container{
@@ -186,7 +194,6 @@ and (max-device-width : 440px) {
   .bottom-nav-links li {
     float: none;
     padding-bottom: 10px;
-    text-align: center;
   }
 
   .bottom-nav-2{

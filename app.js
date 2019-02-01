@@ -33,4 +33,16 @@ const newsPrint = (num) => {
 }
 
 
+const timeSlide = () => {
+  let counter = 2;
+  setInterval(function(){
+    if (counter > 3){
+      counter = 1;
+    }
+    newsPrint(counter);
+    counter ++;
+  }, 5000)
+}
+
 newsPrint(1);
+timeSlide();
